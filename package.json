@@ -1,0 +1,36 @@
+{
+  "name": "yt-server",
+  "version": "1.0.0",
+  "description": "It is the server of Iztech Software Society",
+  "main": "app.js",
+  "bin": {
+    "yt-server": "bin/www.js"
+  },
+  "scripts": {
+    "start": "node ./bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IYTE-Yazilim-Toplulugu/yt-server.git"
+  },
+  "author": "Yazılım Topluluğu",
+  "license": "Iztech",
+  "bugs": {
+    "url": "https://github.com/IYTE-Yazilim-Toplulugu/yt-server/issues"
+  },
+  "homepage": "https://github.com/IYTE-Yazilim-Toplulugu/yt-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7"
+  }
+}
